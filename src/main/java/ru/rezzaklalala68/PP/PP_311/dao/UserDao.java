@@ -9,5 +9,5 @@ public interface UserDao {
     User findUserById(Long id);
     void add(User user);
     void update(User user);
-    void delete(User user);
+    void delete(Long id);
 }
